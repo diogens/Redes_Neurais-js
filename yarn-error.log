@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\dioge\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\dioge\AppData\Local\Microsoft\WindowsApps;C:\Users\dioge\AppData\Local\Yarn\bin;C:\Exercism;C:\src\flutter\bin;C:\Users\dioge\AppData\Local\Android\Sdk\tools;C:\Users\dioge\AppData\Roaming\npm
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  11.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\DEV\FACU\RedesNeurais\package.json: Unexpected token / in JSON at position 150
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "RedesNeurais",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "brain.js": "^2.0.0-alpha.9",
+      /* "windows-build-tools": "^5.2.2" */
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
